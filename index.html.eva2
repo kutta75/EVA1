@@ -1,0 +1,22 @@
+<html >
+	<head>
+	<title> EVA2 INDEX </title>
+	</head>
+
+	<body background="image/002-GV_2020.jpg" >
+	<h1> EVA 1 - feeling 346 de 1992 </h1>
+	<p> Index du site </p>
+	<ul>
+	
+	<li> 01 travaux réalisés</li>
+	<li> <a href="02-travaux_a_faire/02-index.html"> 02 travaux à conduire </a> </li>
+	<li> <a href="03-documents/03-index.html"> 03 documents </a> </li>
+	
+	<li> 04 bilan </li> 
+	<li> <a href="./phpinfo.php"> php info </a> </li> 
+	</ul>
+	<script src="scripts/main.js"> </script>
+	</body>
+
+
+</html>

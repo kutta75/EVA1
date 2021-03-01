@@ -1,0 +1,52 @@
+<html >
+	<head>
+	<title> EVA1 Video     </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex" />
+	<style>
+	#doc, #pass { color: white; background-color:black; padding-left:8px; padding-right:8px; }
+	</style>
+	</head>
+	<body background="../image/002-GV_2020.jpg" >
+	<h1> EVA 1 - Video  </h1>
+	<p> Films :                    <span id="doc" ></span> </p>
+	<video id="vidviewer"   witdh=320 height=240 controls poster="camera.gif"> 
+		<source src="01-20190722-Glenans.mp4" type=video/mp4"> 
+		<source src="01-20190722-Glenans.ogg" type="vido/ogg">   
+        cette video ne peut pas etre affichée sur votre navigateur. <br>
+une version est en telechargement sous ce lien 
+</video> 
+
+	<script language="JavaScript">
+  function addComment()
+	{   
+		
+		var parameters = location.search.substring(1).split("&");
+		var temp = parameters[0].split("=");
+		l = unescape(temp[1]);
+		temp = parameters[1].split("=");
+		c = unescape(temp[1]);
+		document.getElementById("doc").innerHTML = l;
+		/* document.getElementById("pass").innerHTML = c;*/
+		/* document.getElementById("pdfviewer").setAttribute.data="01-feeling_doc346tech.pdf";*/
+	}
+	addComment();
+	console.log("toto");
+	var viddata=document.getElementById("vidviewer");
+	console.log(viddata);
+	document.getElementById("vidviewer").setAttribute("src","01-20190722-Glenans.mp4");
+	viddata=document.getElementById("vidviewer");
+	console.log(viddata);	
+	document.getElementById("vidviewer").setAttribute("src",l);
+	pdfdata=document.getElementById("vidviewer");
+	console.log(viddata);
+
+	</script>
+	<form method="get" action="05-index.html">
+  <input type="submit" name="submit" value="Revenir">
+</form>
+	</body>
+
+
+</html>
